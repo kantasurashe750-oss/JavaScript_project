@@ -1,20 +1,19 @@
 let number = Number(document.querySelector("#number").value);
 
-if (number % 2 === 0) {
-    console.log("Zero:", number)
+if (number === 0) {
+    console.log("Zero:");
 } else if (number > 0) {
 
-    if (/* even? */) {
-        // Positive Even
+    if (number % 2 === 0) {
+        console.log("Positve Even");
     } else {
-        // Positive Odd
+        console.log("positvie odd");
     }
 
 } else {
-
-    if (/* even? */) {
-        // Negative Even
+    if (number % 2 === 0) {
+        console.log("Negative Even");
     } else {
-        // Negative Odd
+        console.log("Negative Odd");
     }
 }
