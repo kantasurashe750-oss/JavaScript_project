@@ -42,6 +42,7 @@ if ( basic_salary >= 50000){
 }else {
 
     salary_bonus = basic_salary * 5 / 100;
+    
 }
 
 if (performance_rating === 5){
